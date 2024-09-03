@@ -14,8 +14,8 @@ public class TimeToLive<T> implements Runnable{
 
     void startTTL(){
         try {
-            Thread ttlThread = new Thread(this);
-            ttlThread.start();
+            Thread _ttlThread = new Thread(this);
+            _ttlThread.start();
         }
         catch (Exception e) {
             System.out.println(e.toString());
