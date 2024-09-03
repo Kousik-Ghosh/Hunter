@@ -75,7 +75,6 @@ public class Hunter<T>{
            hashStore.put(key, (T)_list);
            return _list.size();
        }
-       
     }
 
     
